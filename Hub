@@ -27,6 +27,7 @@ Tab:AddButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/1Devz/scripts/main/DevZ%20Hub"))()
   	end    
 })
+
 Tab:AddButton({
 	Name = "gravity",
 	Callback = function()
@@ -34,12 +35,9 @@ Tab:AddButton({
   	end    
 })
 
-ExploitsTab:AddToggle({
-	Name = "Kill Aura", Default = false, Save = true, Flag = "killaura_pl",
-	Callback = function(bool)
-		getgenv().ka = bool
-        if bool then
-            killAura()
-        end
-	end    
-})
+Tab:AddButton({
+	Name = "prison life",
+	Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
+  	end    
+}
