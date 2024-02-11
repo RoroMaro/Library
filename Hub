@@ -33,3 +33,13 @@ Tab:AddButton({
   loadstring(game:HttpGet('https://pastebin.com/raw/L8QbQ8Qu'))()
   	end    
 })
+
+ExploitsTab:AddToggle({
+	Name = "Kill Aura", Default = false, Save = true, Flag = "killaura_pl",
+	Callback = function(bool)
+		getgenv().ka = bool
+        if bool then
+            killAura()
+        end
+	end    
+})
