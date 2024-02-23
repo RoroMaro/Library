@@ -34,10 +34,3 @@ Tab:AddButton({
   loadstring(game:HttpGet('https://pastebin.com/raw/L8QbQ8Qu'))()
   	end    
 })
-
-Tab:AddButton({
-	Name = "prison life",
-	Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaohubPrisonLife"))()
-  	end    
-})
