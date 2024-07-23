@@ -41,3 +41,10 @@ Tab:AddButton({
   loadstring(game:HttpGet('https://pastebin.com/raw/HHwy03Eu'))()
   	end    
 })
+
+Tab:AddButton({
+	Name = "lucky",
+	Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/xkvl2012/luckyblock/main/MainLuckyBlock"))()
+  	end    
+})
