@@ -15,6 +15,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "dash",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/FE%20DASH.txt'))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "fling",
 	Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
@@ -39,12 +46,5 @@ Tab:AddButton({
 	Name = "god",
 	Callback = function()
   loadstring(game:HttpGet('https://pastebin.com/raw/HHwy03Eu'))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "dash",
-	Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/FE%20DASH.txt'))()
   	end    
 })
