@@ -15,16 +15,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "dash",
+	Name = "dance",
 	Callback = function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/FE%20DASH.txt'))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "fling",
-	Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Energize-10408"))()
   	end    
 })
 
@@ -32,19 +25,5 @@ Tab:AddButton({
 	Name = "acs",
 	Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/1Devz/scripts/main/DevZ%20Hub"))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "gravity",
-	Callback = function()
-  loadstring(game:HttpGet('https://pastebin.com/raw/L8QbQ8Qu'))()
-  	end    
-})
-
-Tab:AddButton({
-	Name = "god",
-	Callback = function()
-  loadstring(game:HttpGet('https://pastebin.com/raw/HHwy03Eu'))()
   	end    
 })
