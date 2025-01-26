@@ -15,6 +15,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "piano",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/main/AP3-5.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "dance",
 	Callback = function()
 loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Energize-10408"))()
